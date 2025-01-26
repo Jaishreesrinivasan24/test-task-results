@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
+  <diagram name="Page-1" id="7jCX2tgQqmVpWHDuG_6v">
+    <mxGraphModel dx="2227" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-1" target="Vrx4RsLUEW0FRuEBWpMl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-1" value="Hub_Player&lt;div&gt;&lt;span class=&quot;hljs-emphasis&quot;&gt;-----------&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-emphasis&quot;&gt;Player_&lt;/span&gt;ID (PK)&lt;br/&gt;Load&lt;span class=&quot;hljs-emphasis&quot;&gt;_DTS&lt;br/&gt;Record_&lt;/span&gt;Source&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="55" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.361;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-3" target="Vrx4RsLUEW0FRuEBWpMl-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="140" y="270" />
+              <mxPoint x="130" y="270" />
+              <mxPoint x="130" y="461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.973;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-3" target="Vrx4RsLUEW0FRuEBWpMl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-3" target="Vrx4RsLUEW0FRuEBWpMl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-3" value="&#xa;&lt;span class=&quot;hljs-section&quot;&gt;Link&lt;span class=&quot;hljs-emphasis&quot;&gt;_Player_&lt;/span&gt;Game&#xa;-----------------&lt;/span&gt;&#xa;Link&lt;span class=&quot;hljs-emphasis&quot;&gt;_ID (PK)&#xa;Player_&lt;/span&gt;ID (FK)&#xa;Game&lt;span class=&quot;hljs-emphasis&quot;&gt;_ID (FK)&#xa;Load_&lt;/span&gt;DTS&#xa;Record&lt;span class=&quot;hljs-emphasis&quot;&gt;_Source&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-4" value="&lt;span class=&quot;hljs-section&quot;&gt;Satellite&lt;span class=&quot;hljs-emphasis&quot;&gt;_Player_&lt;/span&gt;Purchase&lt;br/&gt;--------------------------&lt;/span&gt;&lt;br/&gt;Player&lt;span class=&quot;hljs-emphasis&quot;&gt;_ID (FK)&lt;br/&gt;Purchase_&lt;/span&gt;ID&lt;br/&gt;Purchase&lt;span class=&quot;hljs-emphasis&quot;&gt;_Amount&lt;br/&gt;Currency&lt;br/&gt;Event_&lt;/span&gt;Timestamp&lt;br/&gt;Load&lt;span class=&quot;hljs-emphasis&quot;&gt;_DTS&lt;br/&gt;Record_&lt;/span&gt;Source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="280" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-6" target="Vrx4RsLUEW0FRuEBWpMl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-6" target="Vrx4RsLUEW0FRuEBWpMl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-6" value="Hub_Game&lt;div&gt;----------&lt;/div&gt;&lt;div&gt;Game_ID (PK)&lt;/div&gt;&lt;div&gt;Load_DTS&lt;/div&gt;&lt;div&gt;Record_Source&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="158" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-7" value="&lt;span class=&quot;hljs-section&quot;&gt;Satellite&lt;span class=&quot;hljs-emphasis&quot;&gt;_Gam&lt;/span&gt;e_Spin&lt;br&gt;--------------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-emphasis&quot;&gt;Game_ID (FK)&lt;br&gt;Spin_&lt;/span&gt;ID&lt;br&gt;Spin&lt;span class=&quot;hljs-emphasis&quot;&gt;_Amount&lt;br&gt;&lt;/span&gt;Win_Amount&lt;div&gt;Event_Timestamp&lt;br&gt;Load&lt;span class=&quot;hljs-emphasis&quot;&gt;_DTS&lt;br&gt;Record_&lt;/span&gt;Source&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-8" value="&lt;span class=&quot;hljs-section&quot;&gt;Satellite&lt;span class=&quot;hljs-emphasis&quot;&gt;_Player_Gam&lt;/span&gt;e_Time&lt;br&gt;--------------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-emphasis&quot;&gt;Link_ID (FK)&lt;br&gt;Session_Start&lt;/span&gt;&lt;br&gt;Session_End&lt;span class=&quot;hljs-emphasis&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;Total_Time&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-25" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx4RsLUEW0FRuEBWpMl-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.009;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx4RsLUEW0FRuEBWpMl-1" target="Vrx4RsLUEW0FRuEBWpMl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="110" as="sourcePoint" />
+            <mxPoint x="-20" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="78" />
+              <mxPoint x="-120" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
